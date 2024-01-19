@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: rgb(141, 154, 227);
+}
+
+button{
+    padding: 15px;
+    background-color: black;
+    color: beige;
+    border-radius: 8px;
+    border: none;
+    margin: 20px auto;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(81, 199, 199);
+}
+
+#cardDisplay{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+img{
+    position: absolute;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
